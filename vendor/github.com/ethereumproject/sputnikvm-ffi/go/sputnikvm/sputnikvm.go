@@ -35,7 +35,7 @@ import "C"
 import (
 	"unsafe"
 	"math/big"
-	"github.com/ethereumproject/go-ethereum/common"
+	"github.com/Victorium-org/go-victorium/common"
 )
 
 type AccountChangeType int
