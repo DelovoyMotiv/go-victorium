@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/Victorium-org/go-victorium/logger/glog"
 	"os"
 	"path/filepath"
 )

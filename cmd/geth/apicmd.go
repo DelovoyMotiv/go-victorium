@@ -25,8 +25,8 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereumproject/go-ethereum/node"
-	"github.com/ethereumproject/go-ethereum/rpc"
+	"github.com/Victorium-org/go-victorium/node"
+	"github.com/Victorium-org/go-victorium/rpc"
 	"os"
 )
 

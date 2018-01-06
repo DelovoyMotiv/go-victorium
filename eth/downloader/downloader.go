@@ -28,14 +28,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/ethdb"
-	"github.com/ethereumproject/go-ethereum/event"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/metrics"
-	"github.com/ethereumproject/go-ethereum/trie"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/core/types"
+	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/Victorium-org/go-victorium/event"
+	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/Victorium-org/go-victorium/metrics"
+	"github.com/Victorium-org/go-victorium/trie"
 )
 
 const (

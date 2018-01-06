@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereumproject/go-ethereum/rlp"
+	"github.com/Victorium-org/go-victorium/rlp"
 )
 
 // Version is the application revision identifier. It can be set with the linker

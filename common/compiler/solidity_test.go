@@ -23,7 +23,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/ethereumproject/go-ethereum/common"
+	"github.com/Victorium-org/go-victorium/common"
 )
 
 const solcVersion = "0.1.1"

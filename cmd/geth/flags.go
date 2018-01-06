@@ -8,12 +8,12 @@ import (
 
 	"path/filepath"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/eth"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/rpc"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/core"
+	"github.com/Victorium-org/go-victorium/eth"
+	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/Victorium-org/go-victorium/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

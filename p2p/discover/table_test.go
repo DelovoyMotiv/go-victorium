@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/crypto"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/crypto"
 )
 
 func TestTable_pingReplace(t *testing.T) {

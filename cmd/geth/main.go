@@ -24,11 +24,11 @@ import (
 	"path/filepath"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereumproject/go-ethereum/console"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/eth"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/metrics"
+	"github.com/Victorium-org/go-victorium/console"
+	"github.com/Victorium-org/go-victorium/core"
+	"github.com/Victorium-org/go-victorium/eth"
+	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/Victorium-org/go-victorium/metrics"
 )
 
 // Version is the application revision identifier. It can be set with the linker

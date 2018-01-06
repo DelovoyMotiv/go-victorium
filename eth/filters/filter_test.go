@@ -22,13 +22,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/core/vm"
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/ethdb"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/core"
+	"github.com/Victorium-org/go-victorium/core/types"
+	"github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/Victorium-org/go-victorium/logger/glog"
 )
 
 func init() {

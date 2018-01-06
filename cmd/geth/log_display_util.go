@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 	"gopkg.in/urfave/cli.v1"
-	"github.com/ethereumproject/go-ethereum/eth"
-	"github.com/ethereumproject/go-ethereum/eth/downloader"
+	"github.com/Victorium-org/go-victorium/eth"
+	"github.com/Victorium-org/go-victorium/eth/downloader"
 	"fmt"
 )
 

@@ -26,10 +26,10 @@ import (
 
 	"sort"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/node"
-	"github.com/ethereumproject/go-ethereum/rpc"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/Victorium-org/go-victorium/node"
+	"github.com/Victorium-org/go-victorium/rpc"
 	"github.com/gizak/termui"
 	"gopkg.in/urfave/cli.v1"
 	"path/filepath"

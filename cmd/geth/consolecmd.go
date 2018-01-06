@@ -21,9 +21,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/ethereumproject/go-ethereum/console"
-	"github.com/ethereumproject/go-ethereum/node"
-	"github.com/ethereumproject/go-ethereum/rpc"
+	"github.com/Victorium-org/go-victorium/console"
+	"github.com/Victorium-org/go-victorium/node"
+	"github.com/Victorium-org/go-victorium/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

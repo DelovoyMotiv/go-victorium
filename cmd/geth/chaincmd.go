@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/console"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/core/state"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/console"
+	"github.com/Victorium-org/go-victorium/core"
+	"github.com/Victorium-org/go-victorium/core/state"
+	"github.com/Victorium-org/go-victorium/core/types"
+	"github.com/Victorium-org/go-victorium/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

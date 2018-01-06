@@ -19,9 +19,9 @@ package backends
 import (
 	"math/big"
 
-	"github.com/ethereumproject/go-ethereum/accounts/abi/bind"
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/types"
+	"github.com/Victorium-org/go-victorium/accounts/abi/bind"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/core/types"
 )
 
 // This nil assignment ensures compile time that nilBackend implements bind.ContractBackend.

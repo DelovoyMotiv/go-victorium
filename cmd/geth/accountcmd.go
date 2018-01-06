@@ -21,11 +21,11 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/ethereumproject/go-ethereum/accounts"
-	"github.com/ethereumproject/go-ethereum/console"
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/Victorium-org/go-victorium/accounts"
+	"github.com/Victorium-org/go-victorium/console"
+	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/Victorium-org/go-victorium/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

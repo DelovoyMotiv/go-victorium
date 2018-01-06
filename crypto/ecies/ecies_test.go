@@ -42,7 +42,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereumproject/go-ethereum/crypto/secp256k1"
+	"github.com/Victorium-org/go-victorium/crypto/secp256k1"
 )
 
 var dumpEnc bool

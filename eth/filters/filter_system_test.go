@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/core/vm"
-	"github.com/ethereumproject/go-ethereum/event"
+	"github.com/Victorium-org/go-victorium/core"
+	"github.com/Victorium-org/go-victorium/core/types"
+	"github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/Victorium-org/go-victorium/event"
 )
 
 func TestCallbacks(t *testing.T) {

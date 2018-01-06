@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"bytes"
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/crypto"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/crypto"
 )
 
 func TestChainId(t *testing.T) {

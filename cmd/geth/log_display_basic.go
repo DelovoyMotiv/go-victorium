@@ -18,12 +18,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/eth"
-	"github.com/ethereumproject/go-ethereum/eth/downloader"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/Victorium-org/go-victorium/core"
+	"github.com/Victorium-org/go-victorium/core/types"
+	"github.com/Victorium-org/go-victorium/eth"
+	"github.com/Victorium-org/go-victorium/eth/downloader"
+	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/Victorium-org/go-victorium/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 	"math/big"
 	"strconv"
