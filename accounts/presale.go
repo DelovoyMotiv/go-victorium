@@ -24,7 +24,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereumproject/go-ethereum/crypto"
+	"github.com/Victorium-org/go-victorium/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

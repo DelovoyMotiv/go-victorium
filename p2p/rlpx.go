@@ -34,12 +34,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/crypto/ecies"
-	"github.com/ethereumproject/go-ethereum/crypto/secp256k1"
-	"github.com/ethereumproject/go-ethereum/crypto/sha3"
-	"github.com/ethereumproject/go-ethereum/p2p/discover"
-	"github.com/ethereumproject/go-ethereum/rlp"
+	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/Victorium-org/go-victorium/crypto/ecies"
+	"github.com/Victorium-org/go-victorium/crypto/secp256k1"
+	"github.com/Victorium-org/go-victorium/crypto/sha3"
+	"github.com/Victorium-org/go-victorium/p2p/discover"
+	"github.com/Victorium-org/go-victorium/rlp"
 )
 
 const (

@@ -6,13 +6,13 @@ import (
 	"math/big"
 
 	"github.com/ethereumproject/sputnikvm-ffi/go/sputnikvm"
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/state"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	evm "github.com/ethereumproject/go-ethereum/core/vm"
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/core/state"
+	"github.com/Victorium-org/go-victorium/core/types"
+	evm "github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/Victorium-org/go-victorium/logger/glog"
 )
 
 const SputnikVMExists = true

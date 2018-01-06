@@ -20,10 +20,10 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/ethereumproject/go-ethereum/ethdb"
-	"github.com/ethereumproject/go-ethereum/event"
-	"github.com/ethereumproject/go-ethereum/p2p"
-	"github.com/ethereumproject/go-ethereum/rpc"
+	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/Victorium-org/go-victorium/event"
+	"github.com/Victorium-org/go-victorium/p2p"
+	"github.com/Victorium-org/go-victorium/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

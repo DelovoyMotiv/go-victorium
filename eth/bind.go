@@ -19,10 +19,10 @@ package eth
 import (
 	"math/big"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/rlp"
-	"github.com/ethereumproject/go-ethereum/rpc"
+	"github.com/Victorium-org/go-victorium/common"
+	"github.com/Victorium-org/go-victorium/core/types"
+	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/Victorium-org/go-victorium/rpc"
 )
 
 // ContractBackend implements bind.ContractBackend with direct calls to Ethereum

@@ -19,8 +19,8 @@ package core
 import (
 	"runtime"
 
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/pow"
+	"github.com/Victorium-org/go-victorium/core/types"
+	"github.com/Victorium-org/go-victorium/pow"
 )
 
 // nonceCheckResult contains the result of a nonce verification.
