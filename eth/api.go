@@ -513,6 +513,32 @@ func (s *PrivateAccountAPI) SignAndSendTransaction(args SendTxArgs, passwd strin
 
 	return submitTransaction(s.bc, s.txPool, tx, signature)
 }
+func (s *PrivateAccountAPI) SendTransaction(args SendTxArgs, passwd string) (common.Hash, error) {
+	args = prepareSendTxArgs(args, s.gpo)
+
+	s.txMu.Lock()
+	defer s.txMu.Unlock()
+
+	if args.Nonce == nil {
+		args.Nonce = rpc.NewHexNumber(s.txPool.State().GetNonce(args.From))
+	}
+
+	var tx *types.Transaction
+	if args.To == nil {
+		tx = types.NewContractCreation(args.Nonce.Uint64(), args.Value.BigInt(), args.Gas.BigInt(), args.GasPrice.BigInt(), common.FromHex(args.Data))
+	} else {
+		tx = types.NewTransaction(args.Nonce.Uint64(), *args.To, args.Value.BigInt(), args.Gas.BigInt(), args.GasPrice.BigInt(), common.FromHex(args.Data))
+	}
+
+	tx.SetSigner(s.bc.Config().GetSigner(s.bc.CurrentBlock().Number()))
+
+	signature, err := s.am.SignWithPassphrase(args.From, passwd, tx.SigHash().Bytes())
+	if err != nil {
+		return common.Hash{}, err
+	}
+
+	return submitTransaction(s.bc, s.txPool, tx, signature)
+}
 
 // PublicBlockChainAPI provides an API to access the Ethereum blockchain.
 // It offers only methods that operate on public data that is freely available to anyone.
