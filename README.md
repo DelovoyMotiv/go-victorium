@@ -1,8 +1,3 @@
-[![Build Status](https://travis-ci.org/ethereumproject/go-ethereum.svg?branch=master)](https://travis-ci.org/ethereumproject/go-ethereum)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/ethereumproject/go-ethereum?svg=true)](https://ci.appveyor.com/project/splix/go-ethereum)
-[![API Reference](https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://godoc.org/github.com/ethereumproject/go-ethereum)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereumproject/go-ethereum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Ethereum Go (Ethereum Classic Blockchain)
 
@@ -14,10 +9,6 @@ _original_ chain. Ethereum Classic (ETC) offers a censorship-resistant and power
 ### :rocket: From a release binary
 The simplest way to get started running a node is to visit our [Releases page](https://github.com/ethereumproject/go-ethereum/releases) and download a zipped executable binary (matching your operating system, of course), then moving the unzipped file `geth` to somewhere in your `$PATH`. Now you should be able to open a terminal and run `$ geth help` to make sure it's working. For additional installation instructions please check out the [Installation Wiki](https://github.com/ethereumproject/go-ethereum/wiki/Home#Developers).
 
-#### :beers: Using Homebrew (OSX only)
-```
-$ brew install ethereumproject/classic/geth
-```
 
 ### :hammer: Building the source
 
@@ -27,81 +18,17 @@ If your heart is set on the bleeding edge, install from source. However, please 
 Building geth requires both Go >=1.9 and a C compiler.
 
 #### Get source and dependencies
-`$ go get -v github.com/ethereumproject/go-ethereum/...`
+`$ go get -v github.com/VictoriumProject/go-victorium/...`
 
 #### Installing command executables
 
 To install...
 
-- the full suite of utilities: `$ go install github.com/ethereumproject/go-ethereum/cmd/...`
-- just __geth__: `$ go install github.com/ethereumproject/go-ethereum/cmd/geth`
+- the full suite of utilities: `$ go install github.com/VictoriumProject/go-victorium/cmd/...`
+- just __geth__: `$ go install github.com/VictoriumProject/go-victorium/cmd/geth`
 
 Executables built from source will, by default, be installed in `$GOPATH/bin/`.
 
-#### Building specific release
-All the above commands results with building binaries from `HEAD`. To use a specific release/tag, use the following:
-```
-$ go get -d github.com/ethereumproject/go-ethereum/...
-$ cd $GOPATH/src/github.com/ethereumproject/go-ethereum
-$ git checkout <TAG OR REVISION>
-$ go install -ldflags "-X main.Version="`git describe --tags` ./cmd/...
-```
-
-#### Using release source code tarball
-Because of strict Go directory structure, the tarball needs to be extracted into the proper subdirectory under `$GOPATH`.
-The following commands are an example of building the v4.1.1 release:
-```
-$ mkdir -p $GOPATH/src/github.com/ethereumproject
-$ cd $GOPATH/src/github.com/ethereumproject
-$ tar xzf /path/to/go-ethereum-4.1.1.tar.gz
-$ mv go-ethereum-4.1.1 go-ethereum
-$ cd go-ethereum
-$ go install -ldflags "-X main.Version=v4.1.1" ./cmd/...
-```
-
-#### Building with [SputnikVM](https://github.com/ethereumproject/sputnikvm)
-Have Rust (>= 1.21) and Golang (>= 1.9) installed.
-
-> For __Linux__ and __macOS__:
-
-```
-cd $GOPATH/src/github.com/ethereumproject
-git clone https://github.com/ethereumproject/sputnikvm-ffi
-cd sputnikvm-ffi/c/ffi
-cargo build --release
-cp $GOPATH/src/github.com/ethereumproject/sputnikvm-ffi/c/ffi/target/release/libsputnikvm_ffi.a $GOPATH/src/github.com/ethereumproject/sputnikvm-ffi/c/libsputnikvm.a
-```
-And then build geth with CGO_LDFLAGS:
-
-- In Linux:
-
-```
-cd $GOPATH/src/github.com/ethereumproject/go-ethereum/cmd/geth
-CGO_LDFLAGS="$GOPATH/src/github.com/ethereumproject/sputnikvm-ffi/c/libsputnikvm.a -ldl" go build -tags=sputnikvm .
-```
-
-- In macOS:
-
-```
-cd $GOPATH/src/github.com/ethereumproject/go-ethereum/cmd/geth
-CGO_LDFLAGS="$GOPATH/src/github.com/ethereumproject/sputnikvm-ffi/c/libsputnikvm.a -ldl -lresolv" go build -tags=sputnikvm .
-```
-
-> For __Windows__:
-
-```
-cd %GOPATH%\src\github.com\ethereumproject
-git clone https://github.com/ethereumproject/sputnikvm-ffi
-cd sputnikvm-ffi\c\ffi
-cargo build --release
-copy %GOPATH%\src\github.com\ethereumproject\sputnikvm-ffi\c\ffi\target\release\sputnikvm.lib %GOPATH%\src\github.com\ethereumproject\sputnikvm-ffi\c\sputnikvm.lib
-```
-And then build geth with CGO_LDFLAGS:
-```
-cd %GOPATH%\src\github.com\ethereumproject\go-ethereum\cmd\geth
-set CGO_LDFLAGS=-Wl,--allow-multiple-definition %GOPATH%\src\github.com\ethereumproject\sputnikvm-ffi\c\sputnikvm.lib -lws2_32 -luserenv
-go build -tags=sputnikvm .
-```
 
 ## Executables
 
