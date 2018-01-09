@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/crypto/ecies"
-	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/crypto/ecies"
+	"github.com/VictoriumProject/go-victorium/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

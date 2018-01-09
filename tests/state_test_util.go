@@ -25,13 +25,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/vm"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/ethdb"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 )
 
 func RunStateTestWithReader(ruleSet RuleSet, r io.Reader, skipTests []string) error {

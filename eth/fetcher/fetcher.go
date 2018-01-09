@@ -23,12 +23,12 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/metrics"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/metrics"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

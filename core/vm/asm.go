@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/common"
 )
 
 // Disassemble disassembles the byte code and returns the string

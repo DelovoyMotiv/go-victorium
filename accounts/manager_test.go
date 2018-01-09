@@ -19,7 +19,7 @@ package accounts
 import (
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 	"io/ioutil"
 	"math/rand"
 	"os"

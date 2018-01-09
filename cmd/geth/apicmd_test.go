@@ -9,7 +9,7 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Victorium-org/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/rpc"
 )
 
 const errorMsg = "client returned error"

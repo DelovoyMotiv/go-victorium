@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Victorium-org/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core"
 )
 
 var (

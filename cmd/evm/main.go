@@ -28,14 +28,14 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/core/vm"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/ethdb"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 )
 
 // Version is the application revision identifier. It can be set with the linker

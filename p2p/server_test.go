@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/crypto/sha3"
-	"github.com/Victorium-org/go-victorium/p2p/discover"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/crypto/sha3"
+	"github.com/VictoriumProject/go-victorium/p2p/discover"
 )
 
 func init() {

@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto/sha3"
-	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto/sha3"
+	"github.com/VictoriumProject/go-victorium/rlp"
 )
 
 // HeaderExtraMax is the byte size limit for Header.Extra.

@@ -26,11 +26,11 @@ import (
 	"time"
 
 	"github.com/ethereumproject/ethash"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/miner"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/miner"
 )
 
 func (s *Ethereum) StartMining(threads int, gpus string) error {

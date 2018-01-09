@@ -9,11 +9,11 @@ import (
 
 	"reflect"
 
-	"github.com/Victorium-org/go-victorium/accounts"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/accounts"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
 	"gopkg.in/urfave/cli.v1"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 	"os/exec"
 )
 

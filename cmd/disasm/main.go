@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/vm"
 )
 
 // Version is the application revision identifier. It can be set with the linker

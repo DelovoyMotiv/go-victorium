@@ -21,11 +21,11 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/Victorium-org/go-victorium/accounts"
-	"github.com/Victorium-org/go-victorium/console"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/accounts"
+	"github.com/VictoriumProject/go-victorium/console"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

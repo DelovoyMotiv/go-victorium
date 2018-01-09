@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/rlp"
 )
 
 // Msg defines the structure of a p2p message.

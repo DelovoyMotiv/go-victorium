@@ -19,13 +19,13 @@ package backends
 import (
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/accounts/abi/bind"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/ethdb"
-	"github.com/Victorium-org/go-victorium/event"
+	"github.com/VictoriumProject/go-victorium/accounts/abi/bind"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/event"
 )
 
 // This nil assignment ensures compile time that SimulatedBackend implements bind.ContractBackend.

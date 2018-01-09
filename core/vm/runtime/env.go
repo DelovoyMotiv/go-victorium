@@ -19,10 +19,10 @@ package runtime
 import (
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/vm"
 )
 
 // Env is a basic runtime environment required for running the EVM.

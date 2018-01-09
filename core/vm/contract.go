@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/common"
 )
 
 // ContractRef is a reference to the contract's backing object

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 	"golang.org/x/net/websocket"
 	"gopkg.in/fatih/set.v0"
 )

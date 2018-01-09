@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto"
 )
 
 // formatSilceOutput add padding to the value and adds a size

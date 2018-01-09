@@ -22,15 +22,15 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/eth/downloader"
-	"github.com/Victorium-org/go-victorium/event"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/pow"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/eth/downloader"
+	"github.com/VictoriumProject/go-victorium/event"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/pow"
 )
 
 // HeaderExtra is a freeform description.

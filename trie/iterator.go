@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/Victorium-org/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/common"
 )
 
 // Iterator is a key-value trie iterator to traverse the data contents.

@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/accounts"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/eth"
-	"github.com/Victorium-org/go-victorium/node"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/accounts"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/eth"
+	"github.com/VictoriumProject/go-victorium/node"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 )
 
 const (

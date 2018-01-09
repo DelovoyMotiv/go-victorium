@@ -26,12 +26,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/core/vm"
-	"github.com/Victorium-org/go-victorium/ethdb"
-	"github.com/Victorium-org/go-victorium/event"
-	"github.com/Victorium-org/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/event"
+	"github.com/VictoriumProject/go-victorium/rpc"
 )
 
 var (

@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/p2p"
-	"github.com/Victorium-org/go-victorium/p2p/discover"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/p2p"
+	"github.com/VictoriumProject/go-victorium/p2p/discover"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 )
 
 func init() {

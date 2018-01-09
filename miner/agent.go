@@ -21,10 +21,10 @@ import (
 
 	"sync/atomic"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/pow"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/pow"
 )
 
 type CpuAgent struct {

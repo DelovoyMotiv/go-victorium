@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/Victorium-org/go-victorium/accounts/abi"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/accounts/abi"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/crypto"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

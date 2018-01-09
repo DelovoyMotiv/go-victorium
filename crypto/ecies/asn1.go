@@ -42,7 +42,7 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/crypto/secp256k1"
+	"github.com/VictoriumProject/go-victorium/crypto/secp256k1"
 )
 
 var (

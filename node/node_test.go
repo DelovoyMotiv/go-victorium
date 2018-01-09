@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/p2p"
-	"github.com/Victorium-org/go-victorium/rpc"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/p2p"
+	"github.com/VictoriumProject/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 )
 
 var (

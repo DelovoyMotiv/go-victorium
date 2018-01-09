@@ -21,7 +21,7 @@ package whisper
 import (
 	"crypto/ecdsa"
 
-	"github.com/Victorium-org/go-victorium/event/filter"
+	"github.com/VictoriumProject/go-victorium/event/filter"
 )
 
 // Filter is used to subscribe to specific types of whisper messages.

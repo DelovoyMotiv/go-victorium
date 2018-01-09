@@ -27,9 +27,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Victorium-org/go-victorium/internal/jsre"
-	"github.com/Victorium-org/go-victorium/internal/web3ext"
-	"github.com/Victorium-org/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/internal/jsre"
+	"github.com/VictoriumProject/go-victorium/internal/web3ext"
+	"github.com/VictoriumProject/go-victorium/rpc"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"
 )

@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/Victorium-org/go-victorium/metrics"
-	"github.com/Victorium-org/go-victorium/p2p"
+	"github.com/VictoriumProject/go-victorium/metrics"
+	"github.com/VictoriumProject/go-victorium/p2p"
 )
 
 // meteredMsgReadWriter is a wrapper around a p2p.MsgReadWriter, capable of

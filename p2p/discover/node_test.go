@@ -26,7 +26,7 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/crypto"
 )
 
 func ExampleNewNode() {

@@ -22,12 +22,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/rlp"
-	"github.com/Victorium-org/go-victorium/trie"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/trie"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

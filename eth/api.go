@@ -31,23 +31,23 @@ import (
 	"time"
 
 	"github.com/ethereumproject/ethash"
-	"github.com/Victorium-org/go-victorium/accounts"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/common/compiler"
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/core/vm"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/ethdb"
-	"github.com/Victorium-org/go-victorium/event"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	ethMetrics "github.com/Victorium-org/go-victorium/metrics"
-	"github.com/Victorium-org/go-victorium/miner"
-	"github.com/Victorium-org/go-victorium/p2p"
-	"github.com/Victorium-org/go-victorium/rlp"
-	"github.com/Victorium-org/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/accounts"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/common/compiler"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/event"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	ethMetrics "github.com/VictoriumProject/go-victorium/metrics"
+	"github.com/VictoriumProject/go-victorium/miner"
+	"github.com/VictoriumProject/go-victorium/p2p"
+	"github.com/VictoriumProject/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/rpc"
 )
 
 const defaultGas = uint64(90000)
@@ -1707,7 +1707,7 @@ func (api *PublicDebugAPI) SeedHash(number uint64) (string, error) {
 }
 
 // Metrics return all available registered metrics for the client.
-// See https://github.com/Victorium-org/go-victorium/wiki/Metrics-and-Monitoring for prophetic documentation.
+// See https://github.com/VictoriumProject/go-victorium/wiki/Metrics-and-Monitoring for prophetic documentation.
 func (api *PublicDebugAPI) Metrics(raw bool) (map[string]interface{}, error) {
 
 	// Create a rate formatter

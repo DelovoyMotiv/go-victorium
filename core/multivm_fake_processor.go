@@ -5,9 +5,9 @@ package core
 import (
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/types"
-	evm "github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	evm "github.com/VictoriumProject/go-victorium/core/vm"
 )
 
 const SputnikVMExists = false

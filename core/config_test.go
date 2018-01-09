@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/ethdb"
 	"path/filepath"
 )
 

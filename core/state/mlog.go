@@ -1,6 +1,6 @@
 package state
 
-import "github.com/Victorium-org/go-victorium/logger"
+import "github.com/VictoriumProject/go-victorium/logger"
 
 var mlogState = logger.MLogRegisterAvailable("state", mlogStateLines)
 

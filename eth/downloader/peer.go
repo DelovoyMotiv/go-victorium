@@ -30,7 +30,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/common"
 )
 
 const (

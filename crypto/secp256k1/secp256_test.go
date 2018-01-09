@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/crypto/randentropy"
+	"github.com/VictoriumProject/go-victorium/crypto/randentropy"
 )
 
 const TestCount = 1000

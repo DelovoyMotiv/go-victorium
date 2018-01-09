@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/Victorium-org/go-victorium/event"
-	"github.com/Victorium-org/go-victorium/rpc"
-	"github.com/Victorium-org/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/event"
+	"github.com/VictoriumProject/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/common"
 	"math/big"
 )
 

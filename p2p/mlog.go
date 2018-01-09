@@ -1,6 +1,6 @@
 package p2p
 
-import "github.com/Victorium-org/go-victorium/logger"
+import "github.com/VictoriumProject/go-victorium/logger"
 
 var mlogServer = logger.MLogRegisterAvailable("server", mLogLines)
 

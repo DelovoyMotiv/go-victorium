@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/ethdb"
-	"github.com/Victorium-org/go-victorium/rlp"
-	"github.com/Victorium-org/go-victorium/trie"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/trie"
 )
 
 // StateSync is the main state synchronisation scheduler, which provides yet the

@@ -26,8 +26,8 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/rlp"
 )
 
 var ErrInvalidSig = errors.New("invalid v, r, s values")

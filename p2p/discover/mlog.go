@@ -22,7 +22,7 @@
 package discover
 
 import (
-	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger"
 )
 
 var mlogDiscover = logger.MLogRegisterAvailable("discover", mLogLines)

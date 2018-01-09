@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

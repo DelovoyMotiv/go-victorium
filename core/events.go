@@ -21,9 +21,9 @@ import (
 
 	"time"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/core/vm"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

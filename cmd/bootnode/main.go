@@ -24,10 +24,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/p2p/discover"
-	"github.com/Victorium-org/go-victorium/p2p/nat"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/p2p/discover"
+	"github.com/VictoriumProject/go-victorium/p2p/nat"
 )
 
 // Version is the application revision identifier. It can be set with the linker

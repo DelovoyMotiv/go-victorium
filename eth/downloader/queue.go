@@ -26,15 +26,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/ethdb"
-	"github.com/Victorium-org/go-victorium/logger"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/metrics"
-	"github.com/Victorium-org/go-victorium/trie"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/metrics"
+	"github.com/VictoriumProject/go-victorium/trie"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 
@@ -618,7 +618,7 @@ func (q *queue) reserveHeaders(p *peer, count int, taskPool map[common.Hash]*typ
 		// If we're the first to request this task, initialise the result container
 		index := int(header.Number.Int64() - int64(q.resultOffset))
 		if index >= len(q.resultCache) || index < 0 {
-			glog.Error("index allocation went beyond available resultCache space.\nYou've encountered a sought after, hard to reproduce bug. Please report this to the developers <3 https://github.com/Victorium-org/go-victorium/issues")
+			glog.Error("index allocation went beyond available resultCache space.\nYou've encountered a sought after, hard to reproduce bug. Please report this to the developers <3 https://github.com/VictoriumProject/go-victorium/issues")
 			return nil, false, errInvalidChain
 		}
 

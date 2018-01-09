@@ -23,11 +23,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Victorium-org/go-victorium/accounts/abi/bind"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/types"
-	"github.com/Victorium-org/go-victorium/rlp"
-	"github.com/Victorium-org/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/accounts/abi/bind"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/types"
+	"github.com/VictoriumProject/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/rpc"
 )
 
 // This nil assignment ensures compile time that rpcBackend implements bind.ContractBackend.

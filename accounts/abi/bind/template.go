@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/Victorium-org/go-victorium/accounts/abi"
+import "github.com/VictoriumProject/go-victorium/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

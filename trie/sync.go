@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/ethdb"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

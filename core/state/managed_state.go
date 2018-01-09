@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/Victorium-org/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/common"
 )
 
 type account struct {

@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/rlp"
 )
 
 // Version is the application revision identifier. It can be set with the linker

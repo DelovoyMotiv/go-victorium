@@ -33,10 +33,10 @@ import (
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/crypto/randentropy"
-	"github.com/Victorium-org/go-victorium/crypto/secp256k1"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/crypto/randentropy"
+	"github.com/VictoriumProject/go-victorium/crypto/secp256k1"
 )
 
 type key struct {

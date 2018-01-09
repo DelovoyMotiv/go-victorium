@@ -1,6 +1,6 @@
 package miner
 
-import "github.com/Victorium-org/go-victorium/logger"
+import "github.com/VictoriumProject/go-victorium/logger"
 
 var mlogMiner = logger.MLogRegisterAvailable("miner", mlogMinerLines)
 

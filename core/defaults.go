@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/Victorium-org/go-victorium/core/assets"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/core/assets"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 )
 
 var (

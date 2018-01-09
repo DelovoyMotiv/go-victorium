@@ -30,11 +30,11 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto/ecies"
-	"github.com/Victorium-org/go-victorium/crypto/secp256k1"
-	"github.com/Victorium-org/go-victorium/crypto/sha3"
-	"github.com/Victorium-org/go-victorium/rlp"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto/ecies"
+	"github.com/VictoriumProject/go-victorium/crypto/secp256k1"
+	"github.com/VictoriumProject/go-victorium/crypto/sha3"
+	"github.com/VictoriumProject/go-victorium/rlp"
 	"golang.org/x/crypto/ripemd160"
 )
 

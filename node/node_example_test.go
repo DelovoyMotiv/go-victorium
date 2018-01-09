@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Victorium-org/go-victorium/node"
-	"github.com/Victorium-org/go-victorium/p2p"
-	"github.com/Victorium-org/go-victorium/p2p/discover"
-	"github.com/Victorium-org/go-victorium/rpc"
+	"github.com/VictoriumProject/go-victorium/node"
+	"github.com/VictoriumProject/go-victorium/p2p"
+	"github.com/VictoriumProject/go-victorium/p2p/discover"
+	"github.com/VictoriumProject/go-victorium/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

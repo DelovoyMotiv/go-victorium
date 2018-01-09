@@ -29,9 +29,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/crypto/secp256k1"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/crypto/secp256k1"
 )
 
 func tmpKeyStore(t *testing.T) (dir string, ks *keyStore) {

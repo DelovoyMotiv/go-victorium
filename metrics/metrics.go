@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"bytes"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 	"github.com/rcrowley/go-metrics"
 )
 

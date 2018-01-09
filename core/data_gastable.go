@@ -21,7 +21,7 @@ package core
 import (
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/core/vm"
 )
 
 var DefaultHomeSteadGasTable = &vm.GasTable{

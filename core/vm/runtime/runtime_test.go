@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/accounts/abi"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/state"
-	"github.com/Victorium-org/go-victorium/core/vm"
-	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/accounts/abi"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

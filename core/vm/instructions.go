@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/crypto"
 )
 
 var callStipend = big.NewInt(2300) // Free gas given at beginning of call.

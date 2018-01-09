@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/crypto"
-	"github.com/Victorium-org/go-victorium/crypto/ecies"
+	"github.com/VictoriumProject/go-victorium/crypto"
+	"github.com/VictoriumProject/go-victorium/crypto/ecies"
 )
 
 func TestEnvelopeOpen(t *testing.T) {

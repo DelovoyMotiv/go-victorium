@@ -19,7 +19,7 @@ package discover
 import (
 	"sort"
 
-	"github.com/Victorium-org/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/common"
 )
 
 // node distance computation.

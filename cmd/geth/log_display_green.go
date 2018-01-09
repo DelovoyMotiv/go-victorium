@@ -29,13 +29,13 @@ import (
 	"time"
 	"fmt"
 	"math/big"
-	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger"
 	"strings"
-	"github.com/Victorium-org/go-victorium/logger/glog"
-	"github.com/Victorium-org/go-victorium/eth"
-	"github.com/Victorium-org/go-victorium/eth/downloader"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/eth"
+	"github.com/VictoriumProject/go-victorium/eth/downloader"
 	"gopkg.in/urfave/cli.v1"
-	"github.com/Victorium-org/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core"
 )
 
 var lsModeIcon = []string{

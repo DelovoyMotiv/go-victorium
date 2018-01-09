@@ -39,8 +39,8 @@ import (
 	"unsafe"
 
 	"github.com/Gustav-Simonsson/go-opencl/cl"
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/pow"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/pow"
 )
 
 /*

@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/core/state"
+	"github.com/VictoriumProject/go-victorium/core/state"
 )
 
 func TestBloom9(t *testing.T) {

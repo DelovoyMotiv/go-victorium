@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/eth"
-	"github.com/Victorium-org/go-victorium/eth/downloader"
-	"github.com/Victorium-org/go-victorium/event"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/eth"
+	"github.com/VictoriumProject/go-victorium/eth/downloader"
+	"github.com/VictoriumProject/go-victorium/event"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

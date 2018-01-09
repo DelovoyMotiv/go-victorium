@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

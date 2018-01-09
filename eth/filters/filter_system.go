@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Victorium-org/go-victorium/core"
-	"github.com/Victorium-org/go-victorium/core/vm"
-	"github.com/Victorium-org/go-victorium/event"
+	"github.com/VictoriumProject/go-victorium/core"
+	"github.com/VictoriumProject/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/event"
 )
 
 // FilterType determines the type of filter and is used to put the filter in to

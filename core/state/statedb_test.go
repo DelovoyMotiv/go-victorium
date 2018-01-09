@@ -28,9 +28,9 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/Victorium-org/go-victorium/common"
-	"github.com/Victorium-org/go-victorium/core/vm"
-	"github.com/Victorium-org/go-victorium/ethdb"
+	"github.com/VictoriumProject/go-victorium/common"
+	"github.com/VictoriumProject/go-victorium/core/vm"
+	"github.com/VictoriumProject/go-victorium/ethdb"
 )
 
 // Tests that updating a state trie does not leak any database writes prior to

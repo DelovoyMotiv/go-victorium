@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/Victorium-org/go-victorium/logger"
+	"github.com/VictoriumProject/go-victorium/logger"
 )
 
 var mlogBlockchain = logger.MLogRegisterAvailable("blockchain", mLogLinesBlockchain)

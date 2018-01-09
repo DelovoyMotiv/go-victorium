@@ -22,7 +22,7 @@ import (
 	"net"
 	"reflect"
 	"testing"
-	"github.com/Victorium-org/go-victorium/logger/glog"
+	"github.com/VictoriumProject/go-victorium/logger/glog"
 )
 
 type Service struct{}
