@@ -2,7 +2,7 @@
     "identity": "mainnet",
     "name": "Victorium Mainnet",
     "state": null,
-    "network": 4388577727,
+    "network": 93610431,
     "consensus": "ethash",
     "genesis": {
         "nonce": "0x0000153410032040",
